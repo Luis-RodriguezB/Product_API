@@ -1,5 +1,3 @@
-
-
 const API = `https://fakestoreapi.com`;
 
 const getData = async ( type, argument = '' ) => {

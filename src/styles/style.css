@@ -1,12 +1,21 @@
- body { 
-    color: white;
- }
 
- section a {
-    text-decoration: none;
- }
 
- #main_container {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
- }
+html, body {
+   color: white;
+}
+
+section a {
+   text-decoration: none;
+}
+
+#main_container {
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+.card-img-container {
+   height: 500px;
+}
+.card-img-top {
+   object-fit: scale-down;
+   object-position: center;
+}
