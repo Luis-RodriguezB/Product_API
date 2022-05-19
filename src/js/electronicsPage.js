@@ -6,10 +6,7 @@ import categories from './categories.js';
     window.onload = async () => {
         const container = document.querySelector('#main_container').children[1];
         const products = await getProducts();
-        const clothes = products
-            .filter( 
-                item => item.category === categories.men || 
-                        item.category === categories.women );
+        const clothes = products.filter( item => item.category === categories.electronics );
         
         let cards = '';
         clothes.forEach( item => {

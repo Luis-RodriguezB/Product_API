@@ -1,12 +1,6 @@
 import { getProductsByCategory } from './js/service.js';
 import { createCard } from './js/createCard.js';
-
-const categories = {
-    women: "women's clothing",
-    men: "men's clothing",
-    electronics: 'electronics',
-    jewelery: 'jewelery'
-}
+import categories from './js/categories.js';
 
 window.onload = () => {
     addWomenProducts();
